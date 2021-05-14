@@ -1,0 +1,14 @@
+@import './variable.scss';
+
+
+// დაფარული კლასი
+%container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+%title {
+    font-size: $font-size02;
+    color: $color01;
+    margin: 0 0 $font-size01;
+}

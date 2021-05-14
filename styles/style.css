@@ -1,0 +1,43 @@
+.header-box, .hero-section .container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto; }
+
+.hero-section .container .box h1 {
+  font-size: 40px;
+  color: #048a04;
+  margin: 0 0 14px; }
+
+.header-box, .hero-section .container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto; }
+
+.hero-section .container .box h1 {
+  font-size: 40px;
+  color: #048a04;
+  margin: 0 0 14px; }
+
+.header-box {
+  background-color: #048a04; }
+  .header-box nav {
+    margin: 0 0 0 10px;
+    border: 14px solid #048a04; }
+    .header-box nav ul {
+      justify-content: space-between;
+      vertical-align: initial; }
+      .header-box nav ul li {
+        color: #048a04; }
+        .header-box nav ul li:hover {
+          color: pink; }
+        @media (max-width: 1024px) {
+          .header-box nav ul li {
+            color: #fff; } }
+
+.hero-section {
+  margin: 40px 0 0; }
+  .hero-section .container .box {
+    width: 300px; }
+    .hero-section .container .box p {
+      font-size: 14px;
+      color: pink; }

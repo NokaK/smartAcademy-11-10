@@ -1,0 +1,43 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+@import "./private.scss";
+
+.header-box {
+  background-color: $color01;
+  @extend %container;
+  nav {
+    margin: 0 0 0 10px;
+    @include border($font-size01, solid, $color01);
+    ul {
+      @include flex(space-between, initial);
+      li {
+        color: $color01;
+        &:hover {
+          color: $color04;
+        }
+        @media (max-width: 1024px) {
+          color: $color03;
+        }
+      }
+    }
+  }
+}
+
+.hero-section {
+  margin: $font-size02 0 0;
+  .container {
+    @extend %container;
+    .box {
+      width: $size01;
+      h1 {
+        // font-size: $font-size02;
+        // color: $color04
+        @extend %title;
+      }
+      p {
+        font-size: $font-size01;
+        color: $color04;
+      }
+    }
+  }
+}
